@@ -23,7 +23,7 @@ public class Step_Orange_Def extends Base_OB {
         driver = Launch_Browser();
 
         Po = new Page(driver);
-
+    System.out.println("browser launched successfully");
     }
 
     @Given("Enter the Url")
